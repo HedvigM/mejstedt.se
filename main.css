@@ -1,5 +1,5 @@
 /* layout */
-@media (max-width: 549px) {
+@media (max-width: 600px) {
 	body { margin: 0;}
 	#inner-container { margin: 10px; }
 	#list { padding: 20px; }
@@ -15,7 +15,7 @@
 	}
 	#outer-container {
 		margin: auto;
-		width: 500px;
+		width: 600px;
 		max-width: 30%;
 		padding: 0;
 	}
@@ -42,7 +42,7 @@
 body { background-color: #a4a67e; background-image: url('bakgrund.png'); background-size: 30%; background-repeat: no-repeat; background-position: top center; }
 body, th, tr, td, p { font-family: 'Open Sans Condensed', sans-serif; }
 #inner-container { border: 5px solid #5b5c46; }
-h1 { color: #000; margin: 0; font-size: 4em; }
+h1 { color: #000; margin: 0; font-size: 3.5em; }
 a:link, a:visited { color: #be6b0c; text-decoration: none; }
 a:hover, a:active { color: #884c07; text-decoration: underline; }
 ul { margin: 0; padding: 0;}
