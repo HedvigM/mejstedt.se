@@ -15,19 +15,81 @@
 <link rel="shortcut icon" href="favicon.png" />
 <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 	</style>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
 <link href="main.css" rel="stylesheet">
-<link href="second.css" rel="stylesheet">
+<style type="text/css">
+/* layout */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.content {
+	width: 600px;
 
+}
 
+/* colors and typography */
+.swiper-button-prev, .swiper-button-next {
+	color: lime;
+}
+
+div { border: 1px solid teal; }
+
+.swiper-button-disabled {
+	display: none;
+}
+
+:root {
+  --swiper-navigation-size: 88px;
+}
+</style>
 </head>
 <body>
-	<div id="outer-container">
-	<div id="inner-container">
-		<div id="list">
-			<h1>Hedvig Mejstedt</h1>
+
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+			<div class="content blue-background" id="badrumsdorren">
+				<h1>Hedvig Mejstedt ETT</h1>
+			</div>
 		</div>
-	</div>
-	</div>
+        <div class="swiper-slide">
+			<div class="content">
+				<h1>Hedvig Mejstedt TVÅ</h1>
+			</div>
+		</div>        <div class="swiper-slide">
+			<div class="content">
+				<h1>Hedvig Mejstedt TRE</h1>
+			</div>
+		</div>
+        ...
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+	
+</div>
+<script type="text/javascript">
+	var mySwiper = new Swiper('.swiper-container', {
+	  // Optional parameters
+	  direction: 'horizontal',
+	  loop: false,
+	
+	  // Navigation arrows
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	
+	})
+	</script>
 </body>
 </html>
-
