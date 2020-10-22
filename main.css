@@ -37,10 +37,10 @@
 }
 
 /* colors and typography */
-
-
-body { background-color: #a4a67e; background-image: url('Mejstedt.se.png'); background-size: 50%; background-repeat: no-repeat; background-position: top center; }
+body { background-color: #a4a67e; /*background-image: url('Mejstedt.se.png');*/ background-size: 50%; background-repeat: no-repeat; background-position: top center; }
 body, th, tr, td, p { font-family: 'Open Sans Condensed', sans-serif; }
+vertical-align: middle;
+}
 #inner-container { border: 5px solid #5b5c46; }
 h1 { color: #000; margin: 0; font-size: 3.5em; }
 a:link, a:visited { color: #be6b0c; text-decoration: none; }
