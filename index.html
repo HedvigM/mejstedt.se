@@ -77,6 +77,28 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.tredje-sidan-vänster {
+	width: 100%;
+	background-image: url('tredje-sidan-vänster.png');
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 35%;
+}
+
+.tredje-sidan-höger {
+	width: 100%;
+	background-image: url('tredje-sidan-höger.png');
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 35%;
+}
+
 .tredje-sidan-h1 {
 	font-size: 2em;
 	display: flex;
@@ -85,26 +107,15 @@
 	font-family: 'Parisienne', cursive;
 }
 
-.tredje-sidan {
-	width:100%;
-	height:100%;
-	background-image: url('tredje-sidan-bilden.png');
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: top center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding-top: 35%;
-}
-
 .tredje-sidan-boxen {
-	width: 75%;
+	widows: 100%;;
+	height:100%;
 	padding: 10px;
 	margin: 10px;
 	border: 5px solid #5b5c46;
 	background: #a4a67e;
 	font-family: 'Open Sans Condensed', sans-serif;
+	justify-content: center;
 }
 
 /* colors and typography */
@@ -151,22 +162,20 @@ div { border: 1px solid teal; }
 							<h2>Hedvig Mejstedt TVÅ c</h2>
 							</div>	
 						<div class="andra-sidan-boxen">
-							<h2>Hedvig Mejstedt TVÅ d</h2>
+							<h2>Hedvig Mejstedt TVÅ d</h2>	
 					</div>	
 				</div>	
 			</div>
 		</div>        
 			<div class="swiper-slide">
+				<div class="tredje-sidan-vänster"></div>
+				<div class="tredje-sidan-höger"></div>
 				<div class="tredje-sidan-h1">
 					<h1>Datting</h1>
-						</div>
-					<div class="tredje-sidan">
-						<div class="tredje-sidan-boxen">
-						<div class="tredje-sidan-boxen">
-							<h2>Hedvig Mejstedt TRE</h2>
-						</div>
 					</div>
-				</div>
+						<div class="tredje-sidan-boxen">
+						<h2>Hedvig Mejstedt TRE</h2>
+				</div>		
 			</div>
         ...
     </div>
