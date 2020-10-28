@@ -1,12 +1,25 @@
 /* layout */
+
 @media (max-width: 600px) {
-	body { margin: 0;}
-	#inner-container { margin: 10px; }
-	#list { padding: 20px; }
-	#picture img { float: right; margin: 20px 20px 0px 0px; }
+	body {
+		margin: 0;
+	}
+	#inner-container {
+		margin: 10px;
+	}
+	#list {
+		padding: 20px;
+	}
+	#picture img {
+		float: right;
+		margin: 20px 20px 0px 0px;
+	}
 }
+
 @media (min-width: 550px) {
-	html { height: 100%; }
+	html {
+		height: 100%;
+	}
 	body {
 		display: flex;
 		align-items: center;
@@ -37,41 +50,52 @@
 }
 
 /* colors and typography */
-body { 
-	background-color: #a4a67e; 
-	/*background-image: url('Mejstedt.se.png');*/ 
-	background-size: 50%; 
-	background-repeat: no-repeat; 
-	background-position: top center; 
+
+body {
+	background-color: #a4a67e;
+	/*background-image: url('Mejstedt.se.png');*/
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 
-body, th, tr, td, p { 
-	/*font-family: 'Open Sans Condensed', sans-serif;*/ 
+body, th, tr, td, p {
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
 }
 
 vertical-align: middle;
 }
 
-#inner-container { 
-	border: 5px solid #5b5c46; 
+#inner-container {
+	border: 5px solid #5b5c46;
 }
 
-h1 { 
-	color: #000; 
-	margin: 0; 
-	font-size: 3.5em; 
+h1 {
+	color: #000;
+	margin: 0;
+	font-size: 3.5em;
 }
 
-a:link, a:visited { 
-	color: #be6b0c; 
-	text-decoration: none; 
+a:link, a:visited {
+	color: #be6b0c;
+	text-decoration: none;
 }
 
-a:hover, a:active { 
-	color: #884c07; 
-	text-decoration: underline; 
+a:hover, a:active {
+	color: #884c07;
+	text-decoration: underline;
 }
 
-ul { margin: 0; padding: 0;}
-li { list-style-type: none; padding: 2px; }
-li img { vertical-align: sub; }
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	padding: 2px;
+}
+
+li img {
+	vertical-align: sub;
+}

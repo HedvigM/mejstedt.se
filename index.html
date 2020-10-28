@@ -1,204 +1,212 @@
-
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
-	
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hedvig Mejstedt</title>
-<meta name="description" content="Kontaktuppgifter till Hedvig">
-<meta property="og:title" content="Hedvig Mejstedt" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://mejstedt.se/" />
-<meta property="og:description" content="Kontaktuppgifter till Hedvig" />
-<meta property="og:locale" content="sv_SE" />
-<link rel="shortcut icon" href="favicon.png" />
-<style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hedvig Mejstedt</title>
+	<meta name="description" content="Kontaktuppgifter till Hedvig">
+	<meta property="og:title" content="Hedvig Mejstedt" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://mejstedt.se/" />
+	<meta property="og:description" content="Kontaktuppgifter till Hedvig" />
+	<meta property="og:locale" content="sv_SE" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 	</style>
-<style> @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-	</style>	
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+	</style>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 
-<link href="main.css" rel="stylesheet">
-<style type="text/css">
-/* layout */
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-.bild {
-	width: 100%;
-    height: 100%;
-	background-image: url('Mejstedt.se.png');
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: top center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+	<link href="main.css" rel="stylesheet">
+	<style type="text/css">
+		/* layout */
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
 
-.box {
-	width: 400px;
-	padding: 10px;
-	border: 5px solid #5b5c46;
-	background: #a4a67e;
-}
+		.bild {
+			width: 100%;
+			height: 100%;
+			background-image: url('Mejstedt.se.png');
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position: top center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 
-.andra-sidan-h1 {
-	font-size: 2em;
-	font-family: 'Parisienne', cursive;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+		.box {
+			width: 400px;
+			padding: 10px;
+			border: 5px solid #5b5c46;
+			background: #a4a67e;
+		}
 
-.andra-sidan {
-	width:100%;
-	height:100%;
-	background-image: url('andra-sidan-bilden.png');
-	background-size: 70%;
-	background-repeat: no-repeat;
-	background-position: top center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding-top: 10%;
-}
+		.andra-sidan-h1 {
+			font-size: 2em;
+			font-family: 'Parisienne', cursive;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
 
-.andra-sidan-boxen {
-	width: 75%;
-	padding: 10px;
-	margin: 20%;
-	border: 5px solid #5b5c46;
-	background: #a4a67e; 
-	font-family: 'Open Sans Condensed', sans-serif;
-}
+		.andra-sidan {
+			width: 100%;
+			height: 100%;
+			background-image: url('andra-sidan-bilden.png');
+			background-size: 70%;
+			background-repeat: no-repeat;
+			background-position: top center;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding-top: 10%;
+		}
 
-.tredje-sidan-vänster {
-	width: 100%;
-	background-image: url('tredje-sidan-vänster.png');
-	background-size: 45%;
-	background-repeat: no-repeat;
-	background-position: top left;
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 35%;
-}
+		.andra-sidan-boxen {
+			width: 75%;
+			padding: 10px;
+			margin: 20%;
+			border: 5px solid #5b5c46;
+			background: #a4a67e;
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
 
-.tredje-sidan-höger {
-	width: 100%;
-	background-image: url('tredje-sidan-höger.png');
-	background-size: 45%;
-	background-repeat: no-repeat;
-	background-position: top right;
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 35%;
-}
+		.tredje-sidan-vänster {
+			width: 100%;
+			background-image: url('tredje-sidan-vänster.png');
+			background-size: 45%;
+			background-repeat: no-repeat;
+			background-position: top left;
+			display: flex;
+			flex-wrap: wrap;
+			padding-top: 35%;
+		}
 
-.tredje-sidan-h1 {
-	font-size: 2em;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-family: 'Parisienne', cursive;
-}
+		.tredje-sidan-höger {
+			width: 100%;
+			background-image: url('tredje-sidan-höger.png');
+			background-size: 45%;
+			background-repeat: no-repeat;
+			background-position: top right;
+			display: flex;
+			flex-wrap: wrap;
+			padding-top: 35%;
+		}
 
-.tredje-sidan-boxen {
-	widows: 100%;;
-	height:100%;
-	padding: 10px;
-	margin: 10px;
-	border: 5px solid #5b5c46;
-	background: #a4a67e;
-	font-family: 'Open Sans Condensed', sans-serif;
-	justify-content: center;
-}
+		.tredje-sidan-h1 {
+			font-size: 2em;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			font-family: 'Parisienne', cursive;
+		}
 
-/* colors and typography */
-.swiper-button-prev, .swiper-button-next {
-	color: #5c2b00;
-}
+		.tredje-sidan-boxen {
+			widows: 100%;
+			;
+			height: 100%;
+			padding: 10px;
+			margin: 10px;
+			border: 5px solid #5b5c46;
+			background: #a4a67e;
+			font-family: 'Open Sans Condensed', sans-serif;
+			justify-content: center;
+		}
 
-div { border: 1px solid teal; }
+		/* colors and typography */
+		.swiper-button-prev,
+		.swiper-button-next {
+			color: #5c2b00;
+		}
 
-.swiper-button-disabled {
-	display: none;
-}
+		div {
+			border: 1px solid teal;
+		}
 
-:root {
-  --swiper-navigation-size: 3em;
-}
-</style>
+		.swiper-button-disabled {
+			display: none;
+		}
+
+		:root {
+			--swiper-navigation-size: 3em;
+		}
+	</style>
 </head>
+
 <body>
 
-<!-- Slider main container -->
-<div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-			<div class="bild">
-				<div class="box">
-					<h1>Hedvig Mejstedt ETT</h1>
+	<!-- Slider main container -->
+	<div class="swiper-container">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div class="swiper-slide">
+				<div class="bild">
+					<div class="box">
+						<h1>Hedvig Mejstedt ETT</h1>
+					</div>
 				</div>
 			</div>
-		</div>
-        <div class="swiper-slide">
-			<div class="andra-sidan-h1">
-				<h1>Design</h1>
+			<div class="swiper-slide">
+				<div class="andra-sidan-h1">
+					<h1>Design</h1>
 					<div class="andra-sidan">
 						<div class="andra-sidan-boxen">
 							<h2>Hedvig Mejstedt TVÅ a</h2>
-							</div>	
+						</div>
 						<div class="andra-sidan-boxen">
 							<h2>Hedvig Mejstedt TVÅ b</h2>
-							</div>	
+						</div>
 						<div class="andra-sidan-boxen">
 							<h2>Hedvig Mejstedt TVÅ c</h2>
-							</div>	
+						</div>
 						<div class="andra-sidan-boxen">
-							<h2>Hedvig Mejstedt TVÅ d</h2>	
-					</div>	
-				</div>	
+							<h2>Hedvig Mejstedt TVÅ d</h2>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>        
 			<div class="swiper-slide">
 				<div class="tredje-sidan-vänster"></div>
 				<div class="tredje-sidan-höger"></div>
 				<div class="tredje-sidan-h1">
 					<h1>Datting</h1>
-					</div>
-						<div class="tredje-sidan-boxen">
-						<h2>Hedvig Mejstedt TRE</h2>
-				</div>		
+				</div>
+				<div class="tredje-sidan-boxen">
+					<h2>Hedvig Mejstedt TRE</h2>
+				</div>
 			</div>
-        ...
-    </div>
-		
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+		</div>
 
-	
-</div>
-<script type="text/javascript">
-	var mySwiper = new Swiper('.swiper-container', {
-	  // Optional parameters
-	  direction: 'horizontal',
-	  loop: false,
-	
-	  // Navigation arrows
-	  navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	  },
-	
-	})
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+
+
+	</div>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			// Optional parameters
+			direction: 'horizontal',
+			loop: false,
+
+			// Navigation arrows
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+
+		})
 	</script>
 </body>
+
 </html>
