@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 /* layout */
 
 @media (max-width: 600px) {
@@ -61,9 +63,6 @@ body {
 
 body, th, tr, td, p {
 	/*font-family: 'Open Sans Condensed', sans-serif;*/
-}
-
-vertical-align: middle;
 }
 
 #inner-container {
