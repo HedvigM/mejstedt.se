@@ -71,7 +71,12 @@
 			border: 5px solid #5b5c46;
 			background: #a4a67e;
 			font-family: 'Open Sans Condensed', sans-serif;
-			background: top left/20% no-repeat url('sten.jpg'), top right/20% no-repeat url('sax');
+			/*background: center left/20% no-repeat url('sten.jpg'), center/20% no-repeat url('sax.jpg'), center right/20% no-repeat url('pase.jpg');*/
+		}
+
+		.stensaxpase-bild {
+			width: 20%;
+
 		}
 
 		.andra-sidan-boxen {
@@ -168,9 +173,12 @@
 						<div class="sten-sax-pase">
 							<h2>Spela Sten, Sax Påse!</h2>
 							<button id="rock" value="rock"> Sten </button>
-							<img src="sten.jpg">
 							<button id="scissors" value="scissors"> Sax </button>
-							<button id="paper" value="paper"> Påse </button>
+
+							<img class="stensaxpase-bild" src="pase.jpg" id="paper" value="paper">
+							<img class="stensaxpase-bild" src="sten.jpg" id="rock" value="rock">
+							<img class="stensaxpase-bild" src="sax.jpg" id="scissors" value="scissors">
+
 							<p id="answer"></p>
 						</div>
 						<div class="andra-sidan-boxen">
